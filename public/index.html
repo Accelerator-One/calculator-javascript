@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <link rel="stylesheet" href="index.css" />
+  <script defer src="index.js"></script>
+
+  <title> Calculator </title>
+
+</head>
+<body>
+
+  <div id="panel">
+
+    <div id="head"> &nbsp; </div>
+
+    <div id="display" class="row"> 0 </div>
+
+    <div class="row">
+      <button id="clear" class="op">AC</button>
+      <button class="op add">(</button>
+      <button class="op add">)</button>
+      <button class="cal add">/</button>
+    </div>
+
+    <div class="row">
+      <button class="num add">7</button>
+      <button class="num add">8</button>
+      <button class="num add">9</button>
+      <button class="cal add">*</button>
+    </div>
+
+    <div class="row">
+      <button class="num add">4</button>
+      <button class="num add">5</button>
+      <button class="num add">6</button>
+      <button class="cal add">-</button>
+    </div>
+
+    <div class="row">
+      <button class="num add">1</button>
+      <button class="num add">2</button>
+      <button class="num add">3</button>
+      <button class="cal add">+</button>
+    </div>
+
+    <div class="row">
+      <button class="num add">.</button>
+      <button class="num add">0</button>
+      <button id="backspace" class="num">↩</button>
+      <button id="equal" class="cal">=</button>
+    </div>
+
+  </div>
+
+  <!-- Input node for "copy" command -->
+  <input type="text" />
+
+</body>
+</html>

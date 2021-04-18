@@ -1,0 +1,89 @@
+/* Global  */
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rebeccapurple;
+}
+
+input {
+  display: none;
+  visibility: hidden;
+}
+
+/* Calculator layout */
+#panel {
+  margin: 0px;
+  padding: 0px;
+  width: 18rem;
+  height: 32rem;
+  border: 1rem #47586b solid;
+  background-color: lightslategrey;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  color: white;
+}
+
+#head {
+  height: 3rem;
+  width: 100%;
+  background-color: #344457;
+}
+
+.row {
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  align-content: stretch;
+}
+
+#display {
+  background-color: #222f3e;
+  font-size: xx-large;
+  text-align: right;
+  display: unset;
+  line-height: 2.5em;
+  letter-spacing: 0.25em;
+}
+
+#display:hover {
+  opacity: 0.9;
+}
+
+/* Button definition */
+button {
+  background-color: transparent;
+  font-size: x-large;
+  width: 4.5rem;
+  color: white;
+  border: 0px;
+}
+
+button:hover {
+  background-color: #252e3b;
+}
+
+/* Button styling */
+.op {
+  background-color: #50637e;
+}
+
+.cal {
+  background-color: #364355;
+}
+
+.num {
+  background-color: #192029;
+}
